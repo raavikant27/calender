@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  height: 350px;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid black;
+  box-sizing: border-box;
+  margin-left: 10px;
+}
+.container .h {
+  padding-right: 20px;
+}
+
+.container .days {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .day,
+.container .number {
+  height: 45px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+}
+.container .number:hover {
+  color: rgb(156, 172, 172);
+  border: 2px solid;
+}
+.container .day {
+  background: rgb(226, 223, 223);
+}
+
+.container .date {
+  width: 380px;
+  padding: 25px;
+}
